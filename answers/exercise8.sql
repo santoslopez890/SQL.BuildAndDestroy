@@ -5,3 +5,5 @@ CREATE TABLE Students (
    PostalCode int,
    Country varchar(255);
 );
+INSERT INTO Students (StudentName, Address, City, PostalCode)
+VALUES ('Jane Doe', '57 Union St', 'Glasgow, Scotland', 'G13RB');
